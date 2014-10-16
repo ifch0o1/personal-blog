@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ifch0o1/personal-blog/issues"
   },
-  "homepage": "https://github.com/ifch0o1/personal-blog"
+  "homepage": "https://github.com/ifch0o1/personal-blog",
+  "dependencies": {
+    "express": "^4.9.7"
+  }
 }
