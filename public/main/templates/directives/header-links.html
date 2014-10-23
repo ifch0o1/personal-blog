@@ -1,0 +1,17 @@
+<ul class="nav navbar-nav">
+  <li ng-click="link.select('home')" ng-class="{active: link.isSelected('home')}"><a href="/">Home</a></li>
+  <li ng-click="link.select('knowledge')" ng-class="{active: link.isSelected('knowledge')}"><a href="/knowledge">Knowledge</a></li>
+  <li ng-click="link.select('apps')" ng-class="{active: link.isSelected('apps')}"><a href="/apps">Applications</a></li>
+  <li ng-click="link.select('work')" ng-class="{active: link.isSelected('work')}"><a href="/work">Work</a></li>
+  <li ng-click="link.select('code')" ng-class="{active: link.isSelected('code')}"><a href="/code">Code</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+  <li ng-click="link.select('about-me')" ng-class="{active: link.isSelected('about-me')}"><a href="/about-me">About Me</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profiles <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li><a href="https://github.com/ifch0o1">GitHub</a></li>
+      <li><a href="http://stackoverflow.com/users/2367041/ifch0o1">Stackoverflow</a></li>
+    </ul>
+  </li>
+</ul>
