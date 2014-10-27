@@ -1,0 +1,28 @@
+/*
+	View
+*/
+#view.ng-enter, #view.ng-leave {
+	-webkit-transition: 2s linear all;
+	transition: 2s linear all;
+	position: absolute;
+}
+#view.ng-enter {
+	-webkit-transform: translate(300px, 0px);
+	transform: translate(300px, 0px);
+	opacity: 0;
+}
+#view.ng-enter.ng-enter-active {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+	opacity: 1;
+}
+#view.ng-leave {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+	opacity: 1;
+}
+#view.ng-leave.ng-leave-active {
+	-webkit-transform: translate(-300px, 0px);
+	transform: translate(-300px, 0px);
+	opacity: 0;
+}

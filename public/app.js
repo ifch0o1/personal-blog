@@ -1,5 +1,5 @@
 (function() {
-var app = angular.module('blog', ['ngRoute', 'header-directives', 'knowledge-directives'])
+var app = angular.module('blog', ['ngAnimate', 'ngRoute', 'header-directives', 'knowledge-directives'])
 
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 		$routeProvider
